@@ -13,7 +13,6 @@
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
         </script>
-        <!-- <script async src="//www.googletagmanager.com/gtm.js?id=GTM-WB7RCGW"></script> -->
 
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -35,9 +34,9 @@
         <div class='center' id='body'>
             <p class='paraFont'>A/B testing variants</p>
             </br>
-            <button class='buttonFont' id='click-me'>Click Me</button>
-            <button class='buttonFont' id='dont-click'>Don't click</button>
-            <button class='buttonFont' id='skip'>>> skip</button>
+            <input class='buttonFont' id='click-me' type="button" onclick="location.href='#';" value='Click Me'/>
+            <input class='buttonFont' id='dont-click' type="button" onclick="location.href='#';" value="Don't click"/>
+            <input class='buttonFont' id='skip' type="button" onclick="location.href='#';" value='>> skip'/>
         </div>
     </body>
 </html>
